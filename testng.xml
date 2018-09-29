@@ -6,5 +6,5 @@
       <class name="test.DemoIndexTest"/>
       <class name="test.DemoRegisterTest"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> <!-- test -->
+</suite> <!-- suite -->
