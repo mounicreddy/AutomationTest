@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29287" started-at="2018-09-23T05:06:15Z" finished-at="2018-09-23T05:06:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29287" started-at="2018-09-23T05:06:15Z" finished-at="2018-09-23T05:06:44Z">
+      <class name="test.DemoRegisterTest">
+        <test-method status="PASS" signature="openingChromeBrowser()[pri:0, instance:test.DemoRegisterTest@3bfdc050]" name="openingChromeBrowser" is-config="true" duration-ms="4344" started-at="2018-09-23T05:06:15Z" finished-at="2018-09-23T05:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingChromeBrowser -->
+        <test-method status="PASS" signature="enterUrl(java.lang.reflect.Method)[pri:0, instance:test.DemoRegisterTest@3bfdc050]" name="enterUrl" is-config="true" duration-ms="2078" started-at="2018-09-23T05:06:19Z" finished-at="2018-09-23T05:06:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.DemoRegisterTest.testRegisterPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="PASS" signature="testRegisterPage()[pri:0, instance:test.DemoRegisterTest@3bfdc050]" name="testRegisterPage" duration-ms="19249" started-at="2018-09-23T05:06:21Z" finished-at="2018-09-23T05:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPage -->
+        <test-method status="PASS" signature="opentestreport()[pri:0, instance:test.DemoRegisterTest@3bfdc050]" name="opentestreport" is-config="true" duration-ms="3587" started-at="2018-09-23T05:06:40Z" finished-at="2018-09-23T05:06:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opentestreport -->
+      </class> <!-- test.DemoRegisterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

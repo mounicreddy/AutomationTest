@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="32420" started-at="2018-09-28T16:14:39Z" finished-at="2018-09-28T16:15:12Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="32420" started-at="2018-09-28T16:14:39Z" finished-at="2018-09-28T16:15:12Z">
+      <class name="test.DemoRegisterTest">
+        <test-method status="PASS" signature="openingChromeBrowser()[pri:0, instance:test.DemoRegisterTest@17550481]" name="openingChromeBrowser" is-config="true" duration-ms="4307" started-at="2018-09-28T16:14:39Z" finished-at="2018-09-28T16:14:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingChromeBrowser -->
+        <test-method status="PASS" signature="enterUrl(java.lang.reflect.Method)[pri:0, instance:test.DemoRegisterTest@17550481]" name="enterUrl" is-config="true" duration-ms="5993" started-at="2018-09-28T16:14:44Z" finished-at="2018-09-28T16:14:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.DemoRegisterTest.testRegisterPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="PASS" signature="testRegisterPage()[pri:0, instance:test.DemoRegisterTest@17550481]" name="testRegisterPage" duration-ms="17995" started-at="2018-09-28T16:14:50Z" finished-at="2018-09-28T16:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPage -->
+        <test-method status="PASS" signature="opentestreport()[pri:0, instance:test.DemoRegisterTest@17550481]" name="opentestreport" is-config="true" duration-ms="2611" started-at="2018-09-28T16:15:08Z" finished-at="2018-09-28T16:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opentestreport -->
+      </class> <!-- test.DemoRegisterTest -->
+      <class name="test.GmailLoginTest">
+        <test-method status="PASS" signature="openingChromeBrowser()[pri:0, instance:test.GmailLoginTest@735f7ae5]" name="openingChromeBrowser" is-config="true" duration-ms="3" started-at="2018-09-28T16:15:10Z" finished-at="2018-09-28T16:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingChromeBrowser -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:test.GmailLoginTest@735f7ae5]" name="enterURL" is-config="true" duration-ms="1235" started-at="2018-09-28T16:15:10Z" finished-at="2018-09-28T16:15:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.GmailLoginTest@735f7ae5]" name="testLogin" duration-ms="251" started-at="2018-09-28T16:15:11Z" finished-at="2018-09-28T16:15:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- test.GmailLoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
